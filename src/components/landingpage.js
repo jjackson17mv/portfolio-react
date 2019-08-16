@@ -27,6 +27,14 @@ class LandingPage extends Component{
                                  <i class="fab fa-github-square" aria-hidden="true" />
                                  </a>
 
+                                 <a href="https://www.facebook.com/joshua.jackson.33" rel="noopener noreferrer" target="_blank">
+                                 <i class="fab fa-facebook-square" aria-hidden="true" />
+                                 </a>
+
+                                 <a href="https://www.instagram.com/joshuajackson5482/" rel="noopener noreferrer" target="_blank">
+                                 <i class="fab fa-instagram" aria-hidden="true" />
+                                 </a>
+
                                 
                         </div>
                         </div>
