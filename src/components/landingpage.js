@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-
+//import image from '../assets/images/FullSizeRender.jpeg'
 
 
 
@@ -12,6 +12,8 @@ class LandingPage extends Component{
                 <Grid className ="landing-grid">
                     <Cell col={12}>
                         
+                        <h1>Joshua Jackson</h1>
+
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                              <hr/>
