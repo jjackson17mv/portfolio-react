@@ -2,18 +2,85 @@
 background: #b92b27;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 55%
+
 }
 
 .landing-grid{
- background: #b92b27;  /* fallback for old browsers */
+   background-image: url("https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_1280.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ /* background: #b92b27;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #1565C0, #b92b27); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+text-align:center;
+position: fixed;
+
+left: 0;
+width: 100%;
+height: 100%
+}
+
+.landing-grid h1{
+    color: teal;
+    font-family: 'Cinzel', serif;
+}
+
+.profile-image{
+    height: 30%;
+}
+
+
+.projects-grid{
+    display: flex
+}
+
+.contact-body{
+    margin: auto;
+    background: #b92b27;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 55%
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    font-family: 'Cinzel', serif
 }
 
 
 
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    height: 550px;
+    background-image: url("https://www.digitalmeetsculture.net/wp-content/gallery/anthony-samaniego/tumblr_cloud_dreamscape.gif");
+    color:rgb(24, 200, 206);
+    border: 2px solid teal;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.contact-grid h2{
+    font-family: 'Cinzel', serif
+}
+
+.contact-grid p{
+    font-family: 'Cinzel', serif
+}
+
+.contact-grid hr{
+    border-top: 5px dotted red;
+    width: 50%;
+    margin: auto
+}
+.contact-list i{
+    font-size: 50px;
+    padding-right: 5rem;
+
+}
 
 .banner-text{
     background-color:gold;
@@ -30,11 +97,11 @@ height: 55%
     font-size: 50px;
     font-weight: bold;
     color:teal;
-    margin-left:30%
+   
 }
 
 .banner-text hr {
-    margin-left: 50%;
+    
     border-top: 5px dotted red;
     width: 100%;
     margin: auto;
@@ -44,20 +111,22 @@ height: 55%
 color:teal;
 font-size: 20px;
 padding:1em;
-margin-left: 90px
+
 }
 
 .social-links{
     display: flex ;
     justify-content: space-between;
-    width:50px;
+    width:50%;
     margin: auto
+    
 }
 
 .social-links i {
     color:teal;
     font-size: 5em;
     padding: 8px;
+    margin: auto
     
 }
 
