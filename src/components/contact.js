@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Joshua Jackson</h2>
             <img src={image} alt="avatar" style={{ height: "350px" }} />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em",fontSize:"15px" }}>
               Please feel free to reach out to me via the social links
             </p>
           </Cell>
