@@ -1,17 +1,14 @@
-.header-color {
-background: black !important;
 
-}
 #logo-button{
     margin-right:55%;
-    height: 64px;
+    padding-top: 30px;
+    height: 150px;
     width: 180px
+    
 }
 
 .landing-grid {
-  background-image: url("https://i.ytimg.com/vi/7GKZqLmL4PI/maxresdefault.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   /* background: #b92b27;  /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  Chrome 10-25, Safari 5.1-6 */
   /* background: linear-gradient(to right, #1565C0, #b92b27); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -31,7 +28,7 @@ background: black !important;
 }
 
 .landing-grid h1 {
-  color:goldenrod;
+  color:orangered;
   font-family: "Cinzel", serif;
 }
 
@@ -76,7 +73,7 @@ background: black !important;
 .banner-text h1 {
   font-size: 50px;
   font-weight: bold;
-  color:goldenrod;
+  color:gold;
 }
 
 .banner-text hr {
@@ -86,7 +83,7 @@ background: black !important;
 }
 
 .banner-text p {
-  color:goldenrod;
+  color:gold;
   font-size: 20px;
   padding: 1em;
 }
@@ -99,7 +96,7 @@ background: black !important;
 }
 
 .social-links i {
-  color:orangered;
+  color:gold;
   font-size: 5em;
   padding: 8px;
   margin: auto;

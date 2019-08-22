@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Layout, Header, Navigation, Drawer, Content, Button, } from "react-mdl";
+import { Layout, Header, Navigation, Drawer, Content, Button } from "react-mdl";
 
 import Main from "./components/main";
 import { Link } from "react-router-dom";
@@ -13,26 +13,40 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-        <Layout>
-          <Header className="header-color"  scroll >
+        <Layout
+          style={{
+            background:
+              "url(https://i.ytimg.com/vi/7GKZqLmL4PI/maxresdefault.jpg",
+            bbackgroundRepeat: " no-repeat",
+            backgroundSize: "cover"
+          }}
+        >
+          <Header transparent>
             <Button id="logo-button" href="/">
-              
-                <img
-                  src={Background}
-                  className="img-fluid"
-                  alt="pic"
-                  style={{height:"100%",width:"100%"}}
-                /> </Button>
+              <img
+                src={Background}
+                className="img-fluid"
+                alt="pic"
+                style={{ height: "100%", width: "100%" }}
+              />{" "}
+            </Button>
 
             <Navigation>
-              <Link style={{color:"gold"}}to="/resume">Resume</Link>
-              <Link style={{color:"gold"}} to="/aboutme">About Me</Link>
-              <Link style={{color:"gold"}} to="/projects">Projects</Link>
-              <Link style={{color:"gold"}} to="/contact">Contact</Link>
+              <Link style={{ color: "gold",fontSize:"17px",fontWeight:"bold" }} to="/resume">
+                Resume
+              </Link>
+              <Link style={{ color: "gold",fontSize:"17px",fontWeight:"bold" }} to="/aboutme">
+                About Me
+              </Link>
+              <Link style={{ color: "gold",fontSize:"17px",fontWeight:"bold" }} to="/projects">
+                Projects
+              </Link>
+              <Link style={{ color: "gold",fontSize:"17px",fontWeight:"bold" }} to="/contact">
+                Contact
+              </Link>
             </Navigation>
           </Header>
           <Drawer>
-            
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
