@@ -4,129 +4,193 @@ import render from "../assets/images/FullSizeRender.jpeg";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
+//import ResumeBackground from "../assets/images/resumeBackground.jpg"
+//import BlackCircle from "../assets/images/blackCircle.png"
 
 class Resume extends Component {
   render() {
     return (
       <div>
         <Grid>
-          <Cell col={4}>
-            <div style={{ textAlign: "center" }}>
-              <img src={render} alt="pic" style={{ height: "200px" }} />
+          <Cell className="resume-background" col={4}>
+            <div className="resume-image">
+              <div style={{ textAlign: "center" }}>
+                <img
+                  src={render}
+                  alt="pic"
+                  style={{ height: "300px", marginTop: "50px" }}
+                />
+              </div>
+              <h2
+                style={{
+                  paddingTop: "2em",
+                  color: "maroon",
+                  fontFamily: "Cinzel, serif"
+                }}
+              >
+                Joshua Jackson
+              </h2>
+              <h4 style={{ color: "gold", fontFamily: "Cinzel, serif" }}>
+                Programmer
+              </h4>
+
+              <p
+                style={{
+                  color: "black",
+                  fontSize: "20px",
+                  fontFamily: "Cinzel, serif",
+                  fontWeight: "bold"
+                }}
+              >
+                Graduate of UCSD Full-Stack Coding Bootcamp with multiple years
+                in Hospitality, most recently as a Operations Team Specialist.
+                My ambition is to apply and successfully implement my expertise
+                of heart-felt care from Hospitality combined with my creative
+                thinking and understanding of programming to build
+                applications,websites and databases semantically beautiful with
+                those I interact with.
+                <hr />
+                Possessing skills of unparalled customer service and innovative
+                understanding of programming, I believe I am able to offer a
+                quality product and service like no other. Time management,
+                critical thinking and problem solving paired with a passion to
+                communicate and work cohesively allows me to truly enjoy an
+                office environment that thrives on character,passion and
+                culture.
+                <hr />
+                My goal is to assist, create and inject passion with charisma
+                into every keystroke. Transforming ideas to products to increase
+                UI, UX and elevated expectations of how efficency inceases
+                quality of lie is my "commit" to the respository of life.
+              </p>
+              <h5
+                style={{
+                  color: "gold",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                Address
+              </h5>
+              <p
+                style={{
+                  color: "white",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                San Diego,California,92102
+              </p>
+              <h5
+                style={{
+                  color: "gold",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                Phone
+              </h5>
+              <p
+                style={{
+                  color: "white",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                (508)560-4109
+              </p>
+              <h5
+                style={{
+                  color: "gold",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                Email
+              </h5>
+              <p
+                style={{
+                  color: "white",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                Jjackson17MV@gmail.com
+              </p>
+              <h5
+                style={{
+                  color: "gold",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                Website
+              </h5>
+              <p
+                style={{
+                  color: "white",
+                  fontFamily: "Cinzel, serif",
+                  fontSize: "20px"
+                }}
+              >
+                mywebsite.com
+              </p>
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Joshua Jackson</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
-            <hr
-              style={{ borderTop: "3px solid", color: "red", width: "50%" }}
-            />
-            <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.Contrary to
-              popular belief, Lorem Ipsum is not simply random text. It has
-              roots in a piece of classical Latin literature from 45 BC, making
-              it over 2000 years old. Richard McClintock, a Latin professor at
-              Hampden-Sydney College in Virginia, looked up one of the more
-              obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-              going through the cites of the word in classical literature,
-              discovered the undoubtable source. Lorem Ipsum comes from sections
-              1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-              Extremes of Good and Evil) by Cicero, written in 45 BC. This book
-              is a treatise on the theory of ethics, very popular during the
-              Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-              amet..", comes from a line in section 1.10.32. The standard chunk
-              of Lorem Ipsum used since the 1500s is reproduced below for those
-              interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-              et Malorum" by Cicero are also reproduced in their exact original
-              form, accompanied by English versions from the 1914 translation by
-              H. Rackham.
-            </p>
-            <h5>Address</h5>
-            <p>San Diego,California,92102</p>
-            <h5>Phone</h5>
-            <p>(508)560-4109</p>
-            <h5>Email</h5>
-            <p>Jjackson17MV@gmail.com</p>
-            <h5>Website</h5>
-            <p>mywebsite.com</p>
-            <hr
-              style={{ borderTop: "3px solid", color: "red", width: "50%" }}
-            />
           </Cell>
           <Cell className="resume-rightCol" col={8}>
-            <h2>Education</h2>
+            <h2 style={{ color: "gold", fontFamily: "Cinzel, serif" }}>
+              Education
+            </h2>
 
             <Education
-              startYear={2003}
-              endYear={2010}
-              schoolName="My university"
-              schoolDescription="i went to woo state for x amount years, this is located in worcester ma"
-            />
-
-            <Education
-              startYear={2003}
-              endYear={2010}
-              schoolName="My university"
-              schoolDescription="i went to woo state for x amount years, this is located in worcester ma"
-            />
-
-            <hr style={{ borderTop: "3px solid gold" }} />
-
-            <h2>Experience</h2>
-
-            <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="first job"
-              jobDescription="this is was my first job"
-            />
-
-            <Experience
-              startYear={2013}
+              startYear={2019}
               endYear={2019}
-              jobName="second job"
-              jobDescription="this is was my first job"
-            />
-            
-            <hr style={{ borderTop: "3px solid gold" }} />
-
-            <h2>Skills</h2>
-            <Skills
-            skill="javascript"
-            progress={100}
+              schoolName="UCSD Full-Stack Coding Bootcamp"
+              schoolDescription="Required to graduate, three projects were created that properly demonstrated functioning understanding of each topic covered in class. First was using HTML/CSS and Firebase. Second was Handlebars,Node.js,NodeExpress and MySQL.Lastly, MERN stack was required for our final project.
+              The course successfully taught me the fundmamentals of programming as well as the complexities that innovation require. Graduated with passion,dilligence and further creative/critical thinking skills."
             />
 
-        <Skills
-            skill="HTML/CSS"
-            progress={100}
+            <Education
+              startYear={2007}
+              endYear={2010}
+              schoolName="Worcester State University"
+              schoolDescription="Located in central Massachusetts, majored in Communications as well as playing on the college soccer team and Track team."
             />
 
-<Skills
-            skill="Node.js"
-            progress={100}
+            <hr style={{ borderTop: "3px solid grey" }} />
+
+            <h2 style={{ color: "gold", fontFamily: "Cinzel, serif" }}>
+              Experience
+            </h2>
+
+            <Experience
+              startYear={2016}
+              endYear="Present"
+              jobName="Operations/Team Specialist-San Diego Dining Group"
+              jobDescription="Assist all company restaurants in database management and troubleshooting. Programming databases and UI experience for staff to enable efficient service and proper inventory analysis"
             />
 
-<Skills
-            skill="React"
-            progress={100}
+            <Experience
+              startYear={2016}
+              endYear={2017}
+              jobName="Assitant General Manager-San Diego Dining Group"
+              jobDescription="Assist GM in daily operations as well as developing and implementing SEO, website development, database management, menu creation, marketing and managing service expectations and standards."
             />
 
-<Skills
-            skill="MySQL"
-            progress={100}
-            />
+            <hr style={{ borderTop: "3px solid grey" }} />
 
-<Skills
-            skill="MongoDB"
-            progress={100}
-            />
+            <h2 style={{color:"gold"}}>Skills</h2>
+            <Skills skill="JAVASCRIPT" progress={80} />
 
+            <Skills skill="HTML/CSS" progress={90} />
+
+            <Skills skill="NODE.JS" progress={80} />
+
+            <Skills skill="REACT" progress={80} />
+
+            <Skills skill="MySQL" progress={85} />
+
+            <Skills skill="MongoDB" progress={80} />
           </Cell>
         </Grid>
       </div>

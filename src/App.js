@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Layout, Header, Navigation, Drawer, Content, Button } from "react-mdl";
+import { Layout, Header, Navigation, Drawer, Content, Button, } from "react-mdl";
+
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 import "./App.css";
@@ -24,17 +25,14 @@ class App extends Component {
                 /> </Button>
 
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link style={{color:"gold"}}to="/resume">Resume</Link>
+              <Link style={{color:"gold"}} to="/aboutme">About Me</Link>
+              <Link style={{color:"gold"}} to="/projects">Projects</Link>
+              <Link style={{color:"gold"}} to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer
-            title={
-              <Link style={{ textDecoration: "none", color: "gold" }} to="/" />
-            }
-          >
+          <Drawer>
+            
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>

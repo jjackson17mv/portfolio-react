@@ -1,132 +1,88 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import MVmap from '../assets/images/MVmap.jpeg';
+import MVmap from "../assets/images/MVmap.jpeg";
+import chelseaLogo from "../assets/images/chelseaLogo.png";
+import codingLogo from "../assets/images/codingLogo.png";
 
-
-class About extends Component{
-    render(){
-        return(
-            <div>
-                <Grid>
+class About extends Component {
+  render() {
+    return (
+      <div>
+        <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img src={MVmap} alt="pic" style={{ height: "300px" }} />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Joshua Jackson</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h2 style={{ paddingTop: "2em" }}>Martha's Vineyard</h2>
+            <h4 style={{ color: "grey" }}>Where Im From</h4>
             <hr
               style={{ borderTop: "3px solid", color: "red", width: "50%" }}
             />
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.Contrary to
-              popular belief, Lorem Ipsum is not simply random text. It has
-              roots in a piece of classical Latin literature from 45 BC, making
-              it over 2000 years old. Richard McClintock, a Latin professor at
-              Hampden-Sydney College in Virginia, looked up one of the more
-              obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-              going through the cites of the word in classical literature,
-              discovered the undoubtable source. Lorem Ipsum comes from sections
-              1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-              Extremes of Good and Evil) by Cicero, written in 45 BC. This book
-              is a treatise on the theory of ethics, very popular during the
-              Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-              amet..", comes from a line in section 1.10.32. The standard chunk
-              of Lorem Ipsum used since the 1500s is reproduced below for those
-              interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-              et Malorum" by Cicero are also reproduced in their exact original
-              form, accompanied by English versions from the 1914 translation by
-              H. Rackham.
+              Born in Florida, I moved to Martha's Vineyard at a very young age.
+              MV is a small but beautiful island with a tight-knit community.
+              Speed limit is 45mph and there are no food chains allowed along
+              with stop ligts. Only accessible by plane or boat, you must endure
+              the freezing cold winters and isolation for the enjoyment of
+              summer. It is located about 80 miles south of Boston,MA where in
+              my opinion, the best clam chowder you can ever find. The movie
+              JAWS was also filmed on MV.
             </p>
-            </Cell>
+          </Cell>
 
-            <Cell col={4}>
+          <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src={MVmap} alt="pic" style={{ height: "300px" }} />
+              <img src={chelseaLogo} alt="pic" style={{ height: "300px" }} />
             </div>
             <h2 style={{ paddingTop: "2em" }}>Joshua Jackson</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h4 style={{ color: "grey" }}>Soccer</h4>
             <hr
               style={{ borderTop: "3px solid", color: "red", width: "50%" }}
             />
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.Contrary to
-              popular belief, Lorem Ipsum is not simply random text. It has
-              roots in a piece of classical Latin literature from 45 BC, making
-              it over 2000 years old. Richard McClintock, a Latin professor at
-              Hampden-Sydney College in Virginia, looked up one of the more
-              obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-              going through the cites of the word in classical literature,
-              discovered the undoubtable source. Lorem Ipsum comes from sections
-              1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-              Extremes of Good and Evil) by Cicero, written in 45 BC. This book
-              is a treatise on the theory of ethics, very popular during the
-              Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-              amet..", comes from a line in section 1.10.32. The standard chunk
-              of Lorem Ipsum used since the 1500s is reproduced below for those
-              interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-              et Malorum" by Cicero are also reproduced in their exact original
-              form, accompanied by English versions from the 1914 translation by
-              H. Rackham.
+              Growing up my father was my youth and club soccer coach. My
+              brother also played, so soccer has always been a huge part of my
+              life either on the field on the TV. I played college soccer as
+              well as many premier club teams, ocassionally play when I have the
+              time. Chelsea FC is my favorite club and my brother and fathers is
+              Liverpool, arch rivals. Simple to stay holidays always brings
+              trash talk.
             </p>
-            </Cell>
-            <Cell col={4}>
+          </Cell>
+          <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src={MVmap} alt="pic" style={{ height: "300px" }} />
+              <img src={codingLogo} alt="pic" style={{ height: "230px" }} />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Joshua Jackson</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h2 style={{ paddingTop: "2em" }}>Passion</h2>
+            <h4 style={{ color: "grey" }}>Coding/Programming</h4>
             <hr
               style={{ borderTop: "3px solid", color: "red", width: "50%" }}
             />
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.Contrary to
-              popular belief, Lorem Ipsum is not simply random text. It has
-              roots in a piece of classical Latin literature from 45 BC, making
-              it over 2000 years old. Richard McClintock, a Latin professor at
-              Hampden-Sydney College in Virginia, looked up one of the more
-              obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-              going through the cites of the word in classical literature,
-              discovered the undoubtable source. Lorem Ipsum comes from sections
-              1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-              Extremes of Good and Evil) by Cicero, written in 45 BC. This book
-              is a treatise on the theory of ethics, very popular during the
-              Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-              amet..", comes from a line in section 1.10.32. The standard chunk
-              of Lorem Ipsum used since the 1500s is reproduced below for those
-              interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-              et Malorum" by Cicero are also reproduced in their exact original
-              form, accompanied by English versions from the 1914 translation by
-              H. Rackham.
+              I have been able to combine my passion for Technology and love for
+              Hospitality to create an algorithm of heart felt customer service
+              that will be served to every client through every keystroke.
+              Origin of my passion for computing power began with "Oregon Trail"
+              and developed over the years with innovation and technological
+              break-throughs such as Napster, iPod, iPhone and the list
+              continues. My appreciation for innovation are grass roots,
+              witnessing the development through my youth as opposed to my first
+              cell phone being an iPhone 30++. 
+              <hr/>
+              Most would say "Old School" but I
+              prefer avant-garde as knowing what life was like with less
+              accessibility to information which built diligence, dedication and
+              perserverance to find access to data. Within the last four years I
+              was able to rediscover my passion for technology through my love
+              for hospitality. Interacting with so many guest and experiencing
+              vast personalities has built character, endurance, perspective and
+              expectations of structure, proper service and bottomline products.
             </p>
-            </Cell>
-            </Grid>
-            </div>
-        );
-    }
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
 }
 
 export default About;

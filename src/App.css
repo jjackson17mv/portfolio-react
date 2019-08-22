@@ -3,8 +3,8 @@ background: black !important;
 
 }
 #logo-button{
-    margin-right:40%;
-    height: 70px;
+    margin-right:55%;
+    height: 64px;
     width: 180px
 }
 
@@ -26,12 +26,12 @@ background: black !important;
 
 
 .resume-rightCol {
-  background: grey;
-  color: #b92b27;
+  background:url("http://getwallpapers.com/wallpaper/full/c/f/6/1085685-vertical-simple-backgrounds-1080x1920.jpg");
+  color:black;
 }
 
 .landing-grid h1 {
-  color: teal;
+  color:goldenrod;
   font-family: "Cinzel", serif;
 }
 
@@ -40,60 +40,31 @@ background: black !important;
 }
 
 .projects-grid {
-  display: flex;
+  width: 100%;
+  height: 700px;
+  background-image: url("https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: "no-repeat";
+  background-size: "cover"
 }
-
+.category-tabs{
+  background-color:orange
+}
 .contact-body {
   margin: auto;
-  background: #b92b27; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #1565c0,
-    #b92b27
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #1565c0,
-    #b92b27
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("https://images.pexels.com/photos/263564/pexels-photo-263564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
   font-family: "Cinzel", serif;
-}
-
-.contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 60%;
-  height: 550px;
-  background-image: url("https://www.digitalmeetsculture.net/wp-content/gallery/anthony-samaniego/tumblr_cloud_dreamscape.gif");
-  color: palevioletred;
-  border: 2px solid teal;
-  margin-bottom: 20px;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat:"no-repeat"
 }
 
-.contact-grid h2 {
-  font-family: "Cinzel", serif;
-}
 
-.contact-grid p {
-  font-family: "Cinzel", serif;
-}
 
-.contact-grid hr {
-  border-top: 5px dotted red;
-  width: 50%;
-  margin: auto;
-}
-.contact-list i {
-  font-size: 50px;
-  padding-right: 5rem;
-}
+
 
 .banner-text {
   opacity: 0.8;
@@ -105,7 +76,7 @@ background: black !important;
 .banner-text h1 {
   font-size: 50px;
   font-weight: bold;
-  color: teal;
+  color:goldenrod;
 }
 
 .banner-text hr {
@@ -115,7 +86,7 @@ background: black !important;
 }
 
 .banner-text p {
-  color: teal;
+  color:goldenrod;
   font-size: 20px;
   padding: 1em;
 }
@@ -128,8 +99,18 @@ background: black !important;
 }
 
 .social-links i {
-  color: teal;
+  color:orangered;
   font-size: 5em;
   padding: 8px;
   margin: auto;
 }
+
+.resume-image{
+    background-image: url("http://getwallpapers.com/wallpaper/full/c/f/6/1085685-vertical-simple-backgrounds-1080x1920.jpg") !important;
+
+    height: 100%;
+    width:100%;
+    background-size: cover
+    
+}
+

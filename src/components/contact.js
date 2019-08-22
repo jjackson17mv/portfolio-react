@@ -8,34 +8,32 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Joshua Jackson</h2>
-            <img src={image} alt="avatar" style={{ height: "350px" }} />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em",fontSize:"15px" }}>
-              Please feel free to reach out to me via the social links
+            <h2 style={{textAlign:"left", fontfFamily: "Cinzel, serif",color:"maroon"}}>Joshua Jackson</h2>
+            <img src={image} alt="avatar" style={{ height: "350px",marginLeft:"5%" }} />
+            <p style={{ width: "75%", textAlign:"left", paddingTop: "1em",fontSize:"24px",fontFamily:"Cinzel, serif",color:"maroon",fontWeight:"30px" }}>
+              Feel free to contact me via phone,email or by my social links
             </p>
           </Cell>
 
           <Cell col={6}>
-            <h2>Contact Me</h2>
-            <hr />
+            <h2 style={{textAlign:"right",fontfFamily: "Cinzel, serif",color:"maroon"}}>Contact Me</h2>
+           
 
-            <div className="content-list">
+            <div className="content-list" style={{marginLeft:"35%"}}>
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Cinzel,serif" }}
-                  >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    style={{ fontSize: "20px", fontFamily: "Cinzel,serif" }} >
+                    <i className="fa fa-phone-square" aria-hidden="true" style={{color:"maroon",fontSize:"60px",fontWeight:"40px"}}/>
                     (508)-560-4109
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Cinzel,serif" }}
-                  >
-                    <i class="fas fa-mail-bulk" aria-hidden="true" />
-                    JJackson17MV@gmail.com
+                    style={{ fontSize: "30px", fontFamily: "Cinzel,serif",color:"maroon"}} >
+                    <i class="fas fa-mail-bulk" aria-hidden="true"  />
+                    JJackson17MV@gmail.Com
                   </ListItemContent>
                 </ListItem>
               </List>

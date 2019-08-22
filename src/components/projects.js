@@ -16,13 +16,13 @@ if(this.state.activeTab === 0) {
     return(
         //Project 1
         <Card shadow={5} style={{minWidth: '450', margin:"auto"}}>
-            <CardTitle style={{color: '#fff', height:'176px',background:'url(https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}React Project ></CardTitle>
+            <CardTitle style={{color: '#fff', height:'230px',background:'url(https://firebase.google.com/images/brand-guidelines/logo-vertical.png) center / cover'}}React Project ></CardTitle>
             <CardText>
-                My React project conist of 
+                Firebase,Google Maps API are used with javascript,jQuery to CRUD method recreational pick up games within a given location. Directions are provided.
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored  href="https://github.com/loganbertrand/pick-up-games">Github</Button>
+                <Button colored href="https://loganbertrand.github.io/pick-up-games/">Live Demo</Button>
                 </CardActions>
             <CardMenu style={{color:'#fff'}}>
                 <IconButton name = "share"/>
@@ -38,8 +38,8 @@ if(this.state.activeTab === 0) {
                 This is Mongo DB used as a storage and purchase system
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href="https://github.com/jjackson17mv/mongo-hw">Github</Button>
+                <Button colored href="https://limitless-dusk-25612.herokuapp.com/">Live Demo</Button>
                 </CardActions>
             <CardMenu style={{color:'#fff'}}>
                 <IconButton name = "share"/>
@@ -51,11 +51,11 @@ if(this.state.activeTab === 0) {
         <Card shadow={5} style={{minWidth: '450', margin:"auto"}}>
             <CardTitle style={{color: '#fff', height:'176px',background:'url(https://scotch-res.cloudinary.com/image/upload/w_1500,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover'}}React Project ></CardTitle>
             <CardText>
-                This is my MERN stack application that uses image recognition to search and store nutrients of food
+           MERN stack is used to store nutritional information of food by using image recognition of real-time photos.
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href="https://github.com/HowardKuo/Calorie-Watch">Github</Button>
+                <Button colored  href="https://calorie-watch.herokuapp.com" target="_blank">Live Demo</Button>
                 </CardActions>
             <CardMenu style={{color:'#fff'}}>
                 <IconButton name = "share"/>
@@ -69,11 +69,11 @@ if(this.state.activeTab === 0) {
         <Card shadow={5} style={{minWidth: '450', margin:"auto"}}>
             <CardTitle style={{color: '#fff', height:'176px',background:'url(https://www.gomyitguy.com/wp-content/uploads/2014/09/mysql-logo.jpg) center / cover'}}React Project ></CardTitle>
             <CardText>
-                MySQl is used to create a 
+                MySQl is used to create data storing and deleting. CRUD method.
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button href="https://github.com/jjackson17mv/burger"colored>Github</Button>
+                <Button href="https://aqueous-waters-62827.herokuapp.com/" target="_blank" colored>Live Demo</Button>
                 </CardActions>
             <CardMenu style={{color:'#fff'}}>
                 <IconButton name = "share"/>
@@ -97,7 +97,7 @@ if(this.state.activeTab === 0) {
                 </Tabs>
 
                 
-                    <Grid className="projects-grid">
+                    <Grid className="projects-grid" >
                         <Cell col={12}>
                         <div className="content">{this.toggleCategories()}</div>
                         </Cell>
