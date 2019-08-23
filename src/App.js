@@ -17,8 +17,9 @@ class App extends Component {
           style={{
             background:
               "url(https://i.ytimg.com/vi/7GKZqLmL4PI/maxresdefault.jpg",
-            bbackgroundRepeat: " no-repeat",
-            backgroundSize: "cover"
+            backgroundRepeat: " no-repeat",
+            backgroundSize: "cover",
+            
           }}
         >
           <Header transparent>

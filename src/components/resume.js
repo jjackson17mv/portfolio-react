@@ -138,7 +138,7 @@ class Resume extends Component {
             </div>
           </Cell>
           <Cell className="resume-rightCol" col={8}>
-            <h2 style={{ color: "gold", fontFamily: "Cinzel, serif" }}>
+            <h2 style={{ color: "gold", fontFamily: "Cinzel, serif",fontWeight:"bold"}}>
               Education
             </h2>
 

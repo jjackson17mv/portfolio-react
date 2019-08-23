@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
-import MVmap from "../assets/images/MVmap.jpeg";
+import { Grid, Cell, } from "react-mdl";
+import MVpng from "../assets/images/MVpng.png";
 import chelseaLogo from "../assets/images/chelseaLogo.png";
 import codingLogo from "../assets/images/codingLogo.png";
 
@@ -8,17 +8,19 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Grid>
+        <Grid style={{background:"url(https://images.pexels.com/photos/2260030/pexels-photo-2260030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",backgroundRepeat: " no-repeat",
+            backgroundSize: "cover"}}>
+             
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src={MVmap} alt="pic" style={{ height: "300px" }} />
+              <img src={MVpng} alt="pic" style={{ height: "200px",marginTop:"20px" }} />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Martha's Vineyard</h2>
+            <h2 style={{ paddingTop: "2em",color:"teal" }}>Martha's Vineyard</h2>
             <h4 style={{ color: "grey" }}>Where Im From</h4>
             <hr
-              style={{ borderTop: "3px solid", color: "red", width: "50%" }}
+              style={{ borderTop: "3px solid", color: "grey", fontWeight:"bold", width: "50%" }}
             />
-            <p>
+            <p style={{color:"white",fontWeight:"bold"}}>
               Born in Florida, I moved to Martha's Vineyard at a very young age.
               MV is a small but beautiful island with a tight-knit community.
               Speed limit is 45mph and there are no food chains allowed along
@@ -32,14 +34,14 @@ class About extends Component {
 
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src={chelseaLogo} alt="pic" style={{ height: "300px" }} />
+              <img src={chelseaLogo} alt="pic" style={{ height: "200px" }} />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Joshua Jackson</h2>
+            <h2 style={{ paddingTop: "2em",color:"teal"}}>Joshua Jackson</h2>
             <h4 style={{ color: "grey" }}>Soccer</h4>
             <hr
-              style={{ borderTop: "3px solid", color: "red", width: "50%" }}
+              style={{ borderTop: "3px solid", color: "grey", width: "50%" }}
             />
-            <p>
+            <p style={{color:"white",fontWeight:"bold"}}>
               Growing up my father was my youth and club soccer coach. My
               brother also played, so soccer has always been a huge part of my
               life either on the field on the TV. I played college soccer as
@@ -53,12 +55,12 @@ class About extends Component {
             <div style={{ textAlign: "center" }}>
               <img src={codingLogo} alt="pic" style={{ height: "230px" }} />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Passion</h2>
-            <h4 style={{ color: "grey" }}>Coding/Programming</h4>
+            <h2 style={{ paddingTop: "2em",color:"teal" }}>Passion</h2>
+            <h4 style={{ color: "grey",fontWeight:"bold" }}>Coding/Programming</h4>
             <hr
-              style={{ borderTop: "3px solid", color: "red", width: "50%" }}
+              style={{ borderTop: "3px solid", color: "grey", width: "50%" }}
             />
-            <p>
+            <p style={{color:"white",fontWeight:"bold"}}>
               I have been able to combine my passion for Technology and love for
               Hospitality to create an algorithm of heart felt customer service
               that will be served to every client through every keystroke.
@@ -79,6 +81,7 @@ class About extends Component {
               expectations of structure, proper service and bottomline products.
             </p>
           </Cell>
+         
         </Grid>
       </div>
     );

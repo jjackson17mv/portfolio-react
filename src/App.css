@@ -1,8 +1,8 @@
 
 #logo-button{
     margin-right:55%;
-    padding-top: 30px;
-    height: 150px;
+    
+    height: 63px;
     width: 180px
     
 }
@@ -23,8 +23,8 @@
 
 
 .resume-rightCol {
-  background:url("http://getwallpapers.com/wallpaper/full/c/f/6/1085685-vertical-simple-backgrounds-1080x1920.jpg");
-  color:black;
+  background:url("http://getwallpapers.com/wallpaper/full/c/f/6/1085685-vertical-simple-backgrounds-1080x1920.jpg") ;
+  color:"black";
 }
 
 .landing-grid h1 {
